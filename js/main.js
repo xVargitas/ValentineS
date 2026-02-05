@@ -1,4 +1,4 @@
-﻿const inicio = new Date("2026-02-01");
+﻿const inicio = new Date("2026-02-02");
 const hoy = new Date();
 
 const dias = Math.floor((hoy - inicio) / (1000 * 60 * 60 * 24)) + 1;
@@ -68,3 +68,4 @@ if (floresMostrar < 12) {
             `La siguiente flor aparece en ${h}h ${m}m ${s}s ⏳`;
     }, 1000);
 }
+
